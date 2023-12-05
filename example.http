@@ -1,0 +1,15 @@
+POST http://localhost:5216/Notification/GetSendDownNotification
+```
+###
+
+POST http://localhost:5216/Notification/GetSendUpNotification
+```
+
+###
+POST http://localhost:5216/Notification/GetSendDownNotification HTTP/1.1
+Content-Type: application/json
+
+{
+  "body": "message"
+}
+
